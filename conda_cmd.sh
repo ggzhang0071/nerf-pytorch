@@ -1,1 +1,2 @@
-conda create -n  nerf-pytorch torch=1.11.0 
+conda create -n  nerf-pytorch pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+
